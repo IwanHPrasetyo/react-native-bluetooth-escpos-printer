@@ -14,6 +14,15 @@ Update From https://github.com/januslo/react-native-bluetooth-escpos-printer.git
 
 ![image](https://github.com/user-attachments/assets/58c9654e-4d62-4eda-a738-50a42392e3df)
 
+* change sdk version base on main app
+
+![image](https://github.com/user-attachments/assets/62de9254-3970-4c28-bf6a-c72e9b1ae0e2)
+
+* implementation group: 'com.android.support', name: 'support-v4', version: '27.0.0' to  implementation 'androidx.core:core'
+
+![image](https://github.com/user-attachments/assets/eeafe18e-5d0d-43c4-ac3d-3cad97344ab6)
+
+
 
 ## Installation
 ### Step 1 ###
