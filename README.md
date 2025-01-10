@@ -22,13 +22,15 @@ Update From https://github.com/januslo/react-native-bluetooth-escpos-printer.git
 
 ![image](https://github.com/user-attachments/assets/eeafe18e-5d0d-43c4-ac3d-3cad97344ab6)
 
-
 ### Change Code in File (react-native-bluetooth-escpos-printer/~/RNBluetoothManagerModule.java) ### 
 * import android.support.v4.app.ActivityCompat; TO import androidx.core.app.ActivityCompat;
 * import android.support.v4.content.ContextCompat; TO import androidx.core.content.ContextCompat;
 
 ![image](https://github.com/user-attachments/assets/f3fa0c8e-7b3c-4e1b-b23d-ffa7b74ce9b4)
 
+### Change Code in File (react-native-bluetooth-escpos-printer/~/ecpos/command/src/Command.js) ###
+* For handle cut printer function (public static byte[] GS_i = new byte[] {0x1D, 0x56, 66, 0x00};)
+![image](https://github.com/user-attachments/assets/8d5af625-6e06-4ea1-b467-b73ee0711c8c)
 
 
 ## Installation
