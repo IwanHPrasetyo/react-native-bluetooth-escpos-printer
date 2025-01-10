@@ -23,6 +23,9 @@ Update From https://github.com/januslo/react-native-bluetooth-escpos-printer.git
 ![image](https://github.com/user-attachments/assets/eeafe18e-5d0d-43c4-ac3d-3cad97344ab6)
 
 
+### Change Code in File (react-native-bluetooth-escpos-printer/~/RNBluetoothManagerModule.java) ### 
+
+
 
 ## Installation
 ### Step 1 ###
