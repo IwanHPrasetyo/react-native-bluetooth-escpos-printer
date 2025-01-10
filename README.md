@@ -7,8 +7,8 @@ Update From https://github.com/januslo/react-native-bluetooth-escpos-printer.git
 #May support Android /IOS
 
 ### Change Code in File (react-native-bluetooth-escpos-printer/~/build.gradle) ###   
-* http://jcenter.bintray.com/ to https://jcenter.bintray.com/
-* http://repo.spring.io/plugins-release/ to https://repo.spring.io/plugins-release/
+* http://jcenter.bintray.com/ TO https://jcenter.bintray.com/
+* http://repo.spring.io/plugins-release/ TO https://repo.spring.io/plugins-release/
 
 ![image](https://github.com/user-attachments/assets/f2616404-5e9d-4c68-b998-2a2fa21648f4)
 
@@ -24,6 +24,10 @@ Update From https://github.com/januslo/react-native-bluetooth-escpos-printer.git
 
 
 ### Change Code in File (react-native-bluetooth-escpos-printer/~/RNBluetoothManagerModule.java) ### 
+* import android.support.v4.app.ActivityCompat; TO import androidx.core.app.ActivityCompat;
+* import android.support.v4.content.ContextCompat; TO import androidx.core.content.ContextCompat;
+
+![image](https://github.com/user-attachments/assets/f3fa0c8e-7b3c-4e1b-b23d-ffa7b74ce9b4)
 
 
 
